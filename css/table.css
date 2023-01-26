@@ -1,0 +1,73 @@
+.exel {
+  margin: 0 auto;
+  /* border: 1px solid black; */
+  width: 90%;
+}
+
+.dark .check input {
+  transition: 1s;
+  box-shadow: 0 0 5px #a9acb7, 0 0 5px #a9acb7, 0 0 5px #a9acb7, 0 0 5px #a9acb7;
+}
+
+.intro {
+  padding-bottom: 50px;
+}
+
+.check {
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+}
+
+.check input {
+  margin: 15px 0;
+  margin-left: -10px;
+  width: 30px;
+  height: 25px;
+}
+
+.tables {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  height: 400px;
+}
+
+.dark td {
+  box-shadow: 0 0 5px #a9acb7, 0 0 5px #a9acb7, 0 0 5px #a9acb7, 0 0 5px #a9acb7;
+}
+
+.dark td:hover {
+  cursor: pointer;
+  color: #ebf2fa;
+}
+
+.dark th {
+  box-shadow: 0 0 5px #a9acb7, 0 0 5px #a9acb7, 0 0 5px #a9acb7, 0 0 5px #a9acb7;
+}
+
+.dark th:hover {
+  cursor: pointer;
+  color: #ebf2fa;
+}
+
+.exel td,
+th {
+  cursor: pointer;
+  padding-left: 15px;
+  text-align: start;
+}
+
+.exel th,
+td {
+  height: 53px;
+}
+
+th {
+  font-size: 24px;
+}
+
+td {
+  font-size: 20px;
+  color: #707070;
+}

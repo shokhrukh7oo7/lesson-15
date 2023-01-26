@@ -1,0 +1,45 @@
+@media (max-width: 1100px) {
+  .search-box input {
+    left: 0px;
+  }
+}
+
+@media (max-width: 1000px) {
+  .boxes {
+    display: flex;
+    flex-wrap: wrap;
+    transition: 0.5s;
+    gap: 25px;
+  }
+
+  .intro {
+    overflow-x: scroll;
+  }
+
+  .search-box input {
+    left: 0px;
+  }
+
+  .search-box i {
+    left: auto;
+  }
+}
+
+@media (max-width: 800px) {
+  .intro {
+    overflow-x: scroll;
+    width: calc(100% - 20%);
+  }
+}
+
+@media (max-width: 600px) {
+  .search-box input {
+    left: 65px;
+    width: 0;
+    border-radius: 50px;
+  }
+
+  .search-box i {
+    left: 90px;
+  }
+}
